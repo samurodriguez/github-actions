@@ -12,6 +12,7 @@ jobs:
       - run: "date"
       - run: "sleep 15 && date"
   log-date-2:
+    needs: log-date-1
     runs-on: ubuntu-latest
     steps:
       - run: "date"
