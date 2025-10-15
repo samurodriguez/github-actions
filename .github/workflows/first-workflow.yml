@@ -6,7 +6,13 @@ jobs:
     steps:
       - run: "echo 'helloo!'"
       - run: "echo 'how are you?'"
-  log-date:
+  log-date-1:
     runs-on: ubuntu-latest
     steps:
       - run: "date"
+      - run: "sleep 2 && date"
+  log-date-2:
+    runs-on: ubuntu-latest
+    steps:
+      - run: "date"
+      - run: "sleep 2 && date"
