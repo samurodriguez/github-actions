@@ -4,5 +4,6 @@ jobs:
   show-npm-version:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v5
       - run: ls -a
       - run: cat README.md
