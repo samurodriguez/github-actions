@@ -1,0 +1,8 @@
+name: first-workflow
+on: push
+jobs:
+  log-date:
+    runs-on: ubuntu-latest
+    steps:
+      - run: "echo 'helloo!'"
+      - run: "echo 'how are you?'"
