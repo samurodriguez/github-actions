@@ -10,9 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: "date"
-      - run: "sleep 2 && date"
+      - run: "sleep 15 && date"
   log-date-2:
     runs-on: ubuntu-latest
     steps:
       - run: "date"
-      - run: "sleep 2 && date"
